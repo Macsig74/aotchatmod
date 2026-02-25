@@ -1,0 +1,41 @@
+name: AOTChatMod
+version: '${project.version}'
+main: fr.aot.aotchatmod.AOTChatMod
+api-version: '1.21'
+description: Plugin de modération du chat (liens, spam, couleurs, insultes)
+authors: [AOT]
+
+commands:
+  chatmod:
+    description: Commande principale de AOTChatMod
+    usage: /chatmod <reload|info>
+    aliases: [cm, aotchatmod]
+  mute:
+    description: Rendre muet un joueur
+    usage: /mute <joueur> [durée] [raison]
+  unmute:
+    description: Retirer le mute d'un joueur
+    usage: /unmute <joueur>
+
+permissions:
+  aotchatmod.bypass:
+    description: Bypass toutes les vérifications du chat
+    default: op
+  aotchatmod.color:
+    description: Peut utiliser les couleurs dans le chat
+    default: op
+  aotchatmod.links:
+    description: Peut envoyer des liens dans le chat
+    default: op
+  aotchatmod.spam:
+    description: Bypass la vérification anti-spam
+    default: op
+  aotchatmod.caps:
+    description: Bypass la vérification des majuscules
+    default: op
+  aotchatmod.mute:
+    description: Peut utiliser la commande /mute
+    default: op
+  aotchatmod.admin:
+    description: Accès à toutes les commandes admin
+    default: op

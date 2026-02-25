@@ -1,0 +1,111 @@
+
+
+# Mots interdits
+
+forbidden-words:
+
+  - "connard"
+  - "connarde"
+  - "con"
+  - "conne"
+  - "abruti"
+  - "abrutie"
+  - "idiot"
+  - "idiote"
+  - "imbécile"
+  - "crétin"
+  - "crétine"
+  - "débile"
+  - "attardé"
+  - "attardée"
+  - "taré"
+  - "tarée"
+
+
+  - "merde"
+  - "putain"
+  - "pute"
+  - "salope"
+  - "salaud"
+  - "enculé"
+  - "enculée"
+  - "fdp"
+  - "fils de pute"
+  - "va te faire"
+  - "nique ta"
+  - "nique"
+  - "niquer"
+  - "baise"
+  - "baiser"
+  - "couille"
+  - "couilles"
+  - "bite"
+  - "chatte"
+  - "cul"
+  - "branler"
+  - "branleur"
+  - "branleuse"
+  - "foutre"
+
+
+  - "pd"
+  - "pédé"
+  - "tapette"
+  - "gouine"
+  - "négro"
+  - "nègre"
+  - "bougnoule"
+  - "feuj"
+  - "sale arabe"
+  - "sale noir"
+  - "sale blanc"
+  - "nazi"
+  - "heil"
+
+
+  - "je vais te tuer"
+  - "je vais te crever"
+  - "va mourir"
+  - "crève"
+  - "suicid*"
+
+
+  - "c0nnard"
+  - "m3rde"
+  - "put@in"
+  - "s@lope"
+
+
+
+whitelist-words:
+  - "classique"
+  - "massacre"
+  - "assassin"
+  - "bastille"
+  - "passion"
+  - "compassion"
+
+
+bypass-patterns:
+
+  separators:
+    - "-"
+    - "_"
+    - "."
+    - "!"
+    - "1"
+    - "3"
+    - "0"
+    - "@"
+    - "4"
+    - "$"
+
+  leetspeak:
+    "a": ["4", "@", "^"]
+    "e": ["3", "€"]
+    "i": ["1", "!", "|"]
+    "o": ["0", "°"]
+    "s": ["$", "5"]
+    "t": ["7", "+"]
+    "l": ["1", "|"]
+    "g": ["9", "6"]
